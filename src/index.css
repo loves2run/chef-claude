@@ -1,0 +1,47 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 10.8rem;
+  padding: 2.4rem 16rem;
+  box-shadow: 0 1px 3px 0px rgba(0,0,0,0.10), 0px 1px 2px 0px rgba(0,0,0,0.06);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 22.6rem;
+  height: 6rem;
+}
+
+.navIcon {
+  width: 4.3rem;
+}
+
+.navTitle {
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 6rem;
+  color: #141413;
+}
